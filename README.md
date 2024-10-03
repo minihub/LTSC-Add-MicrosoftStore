@@ -1,6 +1,8 @@
 # LTSC-Add-MicrosoftStore
 Add Windows Store to Windows 11 24H2 LTSC
 
+[Download full Package](https://github.com/minihub/LTSC-Add-MicrosoftStore/releases/download/LTSC-Add-MicrosoftStore-24H2/LTSC-Add-MicrosoftStore-24H2.zip)
+
 ## To install, follow these steps:
 Run `Add-Store.cmd` as Administrator
 > [!IMPORTANT]
