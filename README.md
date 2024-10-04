@@ -34,7 +34,7 @@ Run `Add-Store.cmd` as Administrator
 
 ## InboxApps (optional and manually to install)
 
-Anfter installing the Store App from this package, you can simply double klick to install each of the remaining packages as needed (after extracting the content per .ZIP archive).
+After installing the Store App from this package, you can simply double klick to install each of the remaining packages as needed (after extracting the content per .ZIP archive).
 
 |Name|Size|Link|
 |:---|---:|---:|
