@@ -1,5 +1,5 @@
 # LTSC-Add-MicrosoftStore
-Add Windows Store to Windows 11 24H2 LTSC
+Add Windows Store to Windows 11 24H2 LTSC (from build 26100.x onward)
 
 The LTSC variant of Windows 11 24H2 does not include the Microsoft Store app by default. If you need to use it, you'll have to install the app manually, as Microsoft does not provide a straightforward installation method. The process is similar to customizing a Windows 11 Enterprise system, as outlined in the article ["Add languages to a Windows 11 Enterprise image"](https://learn.microsoft.com/en-us/azure/virtual-desktop/windows-11-language-packs). However, since Microsoft's installation includes a lot of additional apps, this guide provides the minimal components required to get the Microsoft Store app working with your Windows 11 24H2 LTSC installation.
 
