@@ -99,6 +99,7 @@ After installing the Store App from this package, you can simply double klick to
 |Whiteboard|604 MB|[Download](https://github.com/minihub/LTSC-Add-MicrosoftStore/releases/download/LTSC-Add-MicrosoftStore-24H2/Microsoft.Whiteboard.zip)|
 |Xbox.TCUI|10.6 MB|[Download](https://github.com/minihub/LTSC-Add-MicrosoftStore/releases/download/LTSC-Add-MicrosoftStore-24H2/Microsoft.Xbox.TCUI.zip)|
 |XboxGamingOverlay|6.43 MB|[Download](https://github.com/minihub/LTSC-Add-MicrosoftStore/releases/download/LTSC-Add-MicrosoftStore-24H2/Microsoft.XboxGamingOverlay.zip)|
+|XboxIdentityProvider|18.1 MB|[Download](https://github.com/minihub/LTSC-Add-MicrosoftStore/releases/download/LTSC-Add-MicrosoftStore-24H2/Microsoft.XboxIdentityProvider.zip)|
 |XboxSpeechToTextOverlay|1.49 MB|[Download](https://github.com/minihub/LTSC-Add-MicrosoftStore/releases/download/LTSC-Add-MicrosoftStore-24H2/Microsoft.XboxSpeechToTextOverlay.zip)|
 |YourPhone|395 MB|[Download](https://github.com/minihub/LTSC-Add-MicrosoftStore/releases/download/LTSC-Add-MicrosoftStore-24H2/Microsoft.YourPhone.zip)|
 |ZuneMusic|36.7 MB|[Download](https://github.com/minihub/LTSC-Add-MicrosoftStore/releases/download/LTSC-Add-MicrosoftStore-24H2/Microsoft.ZuneMusic.zip)|
