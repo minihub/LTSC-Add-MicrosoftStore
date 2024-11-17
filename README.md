@@ -8,11 +8,11 @@ The LTSC variant of Windows 11 24H2 does not include the Microsoft Store app by 
 > [!NOTE]
 > to install required components:
 > 1. <b>Microsoft Store</b></br>
->    requires: VCLibs, NET.Native.Framework, NET.Native.Runtime, UI.Xaml
+>    requires: [VCLibs](https://github.com/minihub/LTSC-Add-MicrosoftStore/releases/download/LTSC-Add-MicrosoftStore-24H2/Microsoft.VCLibs.zip), [NET.Native.Framework, NET.Native.Runtime](https://github.com/minihub/LTSC-Add-MicrosoftStore/releases/download/LTSC-Add-MicrosoftStore-24H2/Microsoft.NET.Native.zip), [UI.Xaml](https://github.com/minihub/LTSC-Add-MicrosoftStore/releases/download/LTSC-Add-MicrosoftStore-24H2/Microsoft.UI.Xaml.zip)
 > 3. <b>Store Purchase App</b></br>
->    requires: VCLibs, NET.Native.Framework, NET.Native.Runtime, UI.Xaml
+>    requires: [VCLibs](https://github.com/minihub/LTSC-Add-MicrosoftStore/releases/download/LTSC-Add-MicrosoftStore-24H2/Microsoft.VCLibs.zip), [NET.Native.Framework, NET.Native.Runtime](https://github.com/minihub/LTSC-Add-MicrosoftStore/releases/download/LTSC-Add-MicrosoftStore-24H2/Microsoft.NET.Native.zip), [UI.Xaml](https://github.com/minihub/LTSC-Add-MicrosoftStore/releases/download/LTSC-Add-MicrosoftStore-24H2/Microsoft.UI.Xaml.zip)
 > 5. <b>Desktop App Installer</b></br>
->    requires: VCLibs, UI.Xaml
+>    requires: [VCLibs](https://github.com/minihub/LTSC-Add-MicrosoftStore/releases/download/LTSC-Add-MicrosoftStore-24H2/Microsoft.VCLibs.zip), [UI.Xaml](https://github.com/minihub/LTSC-Add-MicrosoftStore/releases/download/LTSC-Add-MicrosoftStore-24H2/Microsoft.UI.Xaml.zip)
 
 ## To install, follow these steps:
 Run `Add-Store.cmd` as Administrator
