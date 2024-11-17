@@ -1,5 +1,5 @@
 # LTSC-Add-MicrosoftStore
-Add Windows Store to Windows 11 24H2 LTSC (from build 26100.x onward)
+Add Windows Store to Windows 11 24H2 LTSC
 
 The LTSC variant of Windows 11 24H2 does not include the Microsoft Store app by default. If you need to use it, you'll have to install the app manually, as Microsoft does not provide a straightforward installation method. The process is similar to customizing a Windows 11 Enterprise system, as outlined in the article ["Add languages to a Windows 11 Enterprise image"](https://learn.microsoft.com/en-us/azure/virtual-desktop/windows-11-language-packs). However, since Microsoft's installation includes a lot of additional apps, this guide provides the minimal components required to get the Microsoft Store app working with your Windows 11 24H2 LTSC installation.
 
@@ -7,10 +7,12 @@ The LTSC variant of Windows 11 24H2 does not include the Microsoft Store app by 
 
 > [!NOTE]
 > to install required components:
-> - Microsoft Store
-> - Store Purchase App
-> - App Installer
-> - Xbox Identiy Provider
+> 1. <b>Microsoft Store</b></br>
+>    requires: VCLibs, NET.Native.Framework, NET.Native.Runtime, UI.Xaml
+> 3. <b>Store Purchase App</b></br>
+>    requires: VCLibs, NET.Native.Framework, NET.Native.Runtime, UI.Xaml
+> 5. <b>Desktop App Installer</b></br>
+>    requires: VCLibs, UI.Xaml
 
 ## To install, follow these steps:
 Run `Add-Store.cmd` as Administrator
@@ -19,10 +21,7 @@ Run `Add-Store.cmd` as Administrator
 
 ### Customize Your Installation
 > [!TIP]
-> If you do not require certain features such as App Installer, Purchase App, or Xbox Identity, you can delete their corresponding `.appxbundle` / `.msixbundle` files before running the installation. See below list of optional InboxApps.
-
-> [!NOTE]
-> If you plan to use games or apps that involve in-app purchases, it's recommended to keep all components.
+> If you do not require certain features such as Desktop App Installer or Purchase App, you can delete their corresponding `.appxbundle` / `.msixbundle` files before running the installation. See below list of optional InboxApps.
 
 ### Troubleshooting the Store Functionality
 - If the Microsoft Store is not functioning correctly after installation, first try rebooting your system.
