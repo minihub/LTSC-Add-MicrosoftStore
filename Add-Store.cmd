@@ -1,4 +1,5 @@
 @echo off
+
 :: Check Windows version (Windows 11 24H2 minimum required)
 for /f "tokens=6 delims=[]. " %%G in ('ver') do if %%G lss 16299 goto :version
 
@@ -64,7 +65,6 @@ echo ============================================================
 echo Installing Microsoft Store
 echo ============================================================
 echo.
-
 1>nul 2>nul %PScommand% Add-AppxProvisionedPackage -Online -PackagePath %Store% -DependencyPackagePath %DepStore% -LicensePath Microsoft.WindowsStore_8wekyb3d8bbwe.xml
 for %%i in (%DepStore%) do (
     %PScommand% Add-AppxPackage -Path %%i
@@ -107,7 +107,7 @@ exit
 :version
 echo.
 echo ============================================================
-echo Error: Windows 11 24H2 (version 26100 or later) required
+echo Error: Windows 11 24H2 (build 26100 or later) required
 echo ============================================================
 echo.
 echo Press any key to exit.
