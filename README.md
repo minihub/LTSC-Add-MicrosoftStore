@@ -3,6 +3,8 @@ Add Windows Store to Windows 11 24H2 LTSC
 
 The LTSC variant of Windows 11 24H2 does not include the Microsoft Store app by default. If you need to use it, you'll have to install the app manually, as Microsoft does not provide a straightforward installation method. The process is similar to customizing a Windows 11 Enterprise system, as outlined in the article ["Add languages to a Windows 11 Enterprise image"](https://learn.microsoft.com/en-us/azure/virtual-desktop/windows-11-language-packs). However, since Microsoft's installation includes a lot of additional apps, this guide provides the minimal components required to get the Microsoft Store app working with your Windows 11 24H2 LTSC installation.
 
+## OPTION 1: manual install
+
 [Download full Package](https://github.com/minihub/LTSC-Add-MicrosoftStore/releases/download/LTSC-Add-MicrosoftStore-24H2/LTSC-Add-MicrosoftStore-24H2.zip)
 
 > [!NOTE]
@@ -115,3 +117,12 @@ Requirements* (but embedded in installer):</br></br>
 [a] Advertising.Xaml</br>
 [b] WinJs</br>
 [c] Media.PlayReadyClient</br>
+
+## OPTION 2: automatic install
+
+LTSC editions do not come with store apps pre-installed. To install them, follow the steps below.
+
+1. Make sure the Internet is connected.
+2. Open Powershell as admin and enter: `wsreset -i`
+3. Wait for a notification to appear that the store app is installed, it may take a few minutes.
+4. install [App Installer](https://apps.microsoft.com/detail/9nblggh4nns1). This app is very useful; it includes WinGet, enabling easy installation of .appx packages.
